@@ -67,6 +67,7 @@ Test Automation using **Selenium**, **Cucumber**, **JUnit**, **Maven**, and **Ja
 #### 1. Run the Test
 * You are ready to automate the test on amazon
 * Run your test using `mvn install` or `mvn verify` from Terminal
+* Run mvn test to execute the existing tests
 
 #### 2. Test Result
 * See the result inside `target/cucumber-reports/advanced-reports/cucumber-html-reports` or `target/cucumber-reports/cucumber-pretty` folders that automatically generated after finished the test execution
