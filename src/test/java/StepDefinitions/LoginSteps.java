@@ -52,8 +52,6 @@ public class LoginSteps {
         loginPage.click_continue();
         loginPage.enter_password();
         loginPage.click_on_submit_button();
-//        loginPage.select_address();
-//        loginPage.select_delivery_date();
     }
 
     @Then("^I verify the price of the product on checkout page$")
