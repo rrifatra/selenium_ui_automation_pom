@@ -1,20 +1,20 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/AmazonLoginTest.feature");
 formatter.feature({
   "line": 1,
-  "name": "As a user, I want to create credentials",
+  "name": "As a user, I want to search for a product and proceed to checkout",
   "description": "",
-  "id": "as-a-user,-i-want-to-create-credentials",
+  "id": "as-a-user,-i-want-to-search-for-a-product-and-proceed-to-checkout",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6346339833,
+  "duration": 6312096920,
   "status": "passed"
 });
 formatter.scenario({
   "line": 5,
-  "name": "Successful login using valid account",
+  "name": "Search for product and proceed to checkout",
   "description": "",
-  "id": "as-a-user,-i-want-to-create-credentials;successful-login-using-valid-account",
+  "id": "as-a-user,-i-want-to-search-for-a-product-and-proceed-to-checkout;search-for-product-and-proceed-to-checkout",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -57,39 +57,39 @@ formatter.match({
   "location": "LoginSteps.loginToAmazonWebsite()"
 });
 formatter.result({
-  "duration": 322458569,
+  "duration": 348204835,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.searchForProduct()"
 });
 formatter.result({
-  "duration": 5519619785,
+  "duration": 6170847172,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.addToCart()"
 });
 formatter.result({
-  "duration": 1352406301,
+  "duration": 1298324466,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.proceedToCheckout()"
 });
 formatter.result({
-  "duration": 1845256205,
+  "duration": 1782174807,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyProductPrice()"
 });
 formatter.result({
-  "duration": 4516842149,
+  "duration": 3676465106,
   "status": "passed"
 });
 formatter.after({
-  "duration": 269398892,
+  "duration": 317146009,
   "status": "passed"
 });
 });
