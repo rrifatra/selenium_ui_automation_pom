@@ -65,18 +65,11 @@ Test Automation using **Selenium**, **Cucumber**, **JUnit**, **Maven**, and **Ja
 ## How to Execute?
 
 #### 1. Run the Test
-* You are ready to automate the test in [Bhinneka.com](https://www.bhinneka.com/) login
+* You are ready to automate the test on amazon
 * Run your test using `mvn install` or `mvn verify` from Terminal
 
 #### 2. Test Result
 * See the result inside `target/cucumber-reports/advanced-reports/cucumber-html-reports` or `target/cucumber-reports/cucumber-pretty` folders that automatically generated after finished the test execution
 * Open html file in your browser
 * Or you can create your result view using json file inside  `target/cucumber-reports`
-* Some sample of test results
-    ![image1](https://github.com/yazidisme/image-attachment/blob/master/download1.png)
-    ![image2](https://github.com/yazidisme/image-attachment/blob/master/download2.png)
-    ![image3](https://github.com/yazidisme/image-attachment/blob/master/download3.png)
-    ![image4](https://github.com/yazidisme/image-attachment/blob/master/download4.png)
-    ![image5](https://github.com/yazidisme/image-attachment/blob/master/download5.png)
-    ![image6](https://github.com/yazidisme/image-attachment/blob/master/download6.png)
-    ![image7](https://github.com/yazidisme/image-attachment/blob/master/download7.png)
+
