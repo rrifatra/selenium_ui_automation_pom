@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6346339833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Successful login using valid account",
+        "description": "",
+        "id": "as-a-user,-i-want-to-create-credentials;successful-login-using-valid-account",
+        "after": [
+          {
+            "result": {
+              "duration": 269398892,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 322458569,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch amazon website",
+            "match": {
+              "location": "LoginSteps.loginToAmazonWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5519619785,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for product and select the first item",
+            "match": {
+              "location": "LoginSteps.searchForProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1352406301,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I add the product to cart and verify the price",
+            "match": {
+              "location": "LoginSteps.addToCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1845256205,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on proceed to checkout and login",
+            "match": {
+              "location": "LoginSteps.proceedToCheckout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4516842149,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the price of the product on checkout page",
+            "match": {
+              "location": "LoginSteps.verifyProductPrice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@ValidCase"
+          },
+          {
+            "line": 4,
+            "name": "@SomeTags"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to create credentials",
+    "description": "",
+    "id": "as-a-user,-i-want-to-create-credentials",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AmazonLoginTest.feature"
+  }
+]

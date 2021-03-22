@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.172322">
+<testcase classname="As a user, I want to create credentials" name="Successful login using valid account" time="20.172322">
+<system-out><![CDATA[Given Launch amazon website.................................................passed
+When I search for product and select the first item.........................passed
+Then I add the product to cart and verify the price.........................passed
+When I click on proceed to checkout and login...............................passed
+Then I verify the price of the product on checkout page.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
