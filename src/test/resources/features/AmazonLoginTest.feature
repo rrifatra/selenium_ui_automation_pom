@@ -1,8 +1,8 @@
-Feature: As a user, I want to create credentials
+Feature: As a user, I want to search for a product and proceed to checkout
 
 
   @ValidCase @SomeTags
-  Scenario: Successful login using valid account
+  Scenario: Search for product and proceed to checkout
     Given Launch amazon website
     When I search for product and select the first item
     Then I add the product to cart and verify the price
